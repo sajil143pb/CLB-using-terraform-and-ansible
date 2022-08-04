@@ -17,7 +17,7 @@ variable "instance_type" {
 }
 
 variable "ami" {
-  default = "ami-02f3416038bdb17fb"
+  default = "ami-0a5588cee1fe39fff"
 }
 
 variable "project" {
