@@ -13,9 +13,13 @@ variable "secret_key" {
 }
 
 variable "instance_type" {
-  default = ""t2.micro""
+  default = "t2.micro"
 }
 
 variable "ami" {
-  default = 
+  default = "ami-02f3416038bdb17fb"
+}
+
+variable "project" {
+ default = "new"
 }
