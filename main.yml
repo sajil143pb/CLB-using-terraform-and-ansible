@@ -10,7 +10,7 @@
 
     - name: Basic deploy of a service
       community.general.terraform:
-        project_path: 'myproject/'
+        project_path: '/project2/CLB-using-terraform-and-ansible/'
         state: present
         force_init: true
 
