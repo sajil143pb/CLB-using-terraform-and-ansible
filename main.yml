@@ -15,7 +15,7 @@
         force_init: true
 
     - name: "Amazon - Fetching Ec2 Info"
-      amazon.aws.ec2_instance_info:
+      aws.ec2_instance_info:
         aws_access_key: "{{ access_key }}"
         aws_secret_key: "{{ secret_key }}"
         region: "{{ region }}"
