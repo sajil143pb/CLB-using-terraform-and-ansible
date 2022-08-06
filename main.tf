@@ -91,7 +91,7 @@ resource "aws_launch_configuration" "frontend" {
   }
 }
 
- -----------------------------------------------------------
+ 
 # AutoScaling Group
 # -----------------------------------------------------------
 resource "aws_autoscaling_group" "frontend" {
